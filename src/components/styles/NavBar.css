@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 .navBar-ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   text-decoration: none;
-  margin-top: 1%;
+  font-family: Lato;
+  height: 10%;
+  margin: 1%;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 6px 6px 6px 6px;
+  overflow: hidden;
 }
 
 .navRef {
-  color: black;
+  color: rgba(0, 0, 0, 0.21);
 }
