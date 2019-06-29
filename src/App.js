@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/Navbar';
 import Mask from '../src/pages/Mask';
 
 function App() {
