@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import THREE from './Three';
+import ModelMask from './model/scene.gltf';
 
 
 class Mask extends Component {
@@ -71,7 +72,7 @@ class Mask extends Component {
 
 
       const loader = new THREE.GLTFLoader();
-      const url = "https://raw.githubusercontent.com/lmencos/just-a-car/master/src/model/scene.gltf";
+      const url = ModelMask;
       loader.load(
         url,
         (gltf) => {
