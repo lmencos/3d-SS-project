@@ -87,14 +87,15 @@ class Sky extends Component {
     init();
     // === THREE.JS EXAMPLE CODE END ===
     
-  }
+  };
 
   render() {
-    return (
-      <div>
-        <div ref={ref => (this.mount = ref)} />
-      </div>
-    )
+      return (
+        <div>
+          <div ref={ref => (this.mount = ref)} />
+        </div>
+      )
+    }
   }
-}
+
 export default Sky;

@@ -98,7 +98,12 @@ class Mask extends Component {
     init();
     // === THREE.JS EXAMPLE CODE END ===
 
-  }
+  };
+
+  buttonMask = () => {
+    const doesShow = this.state.showMask;
+    this.setState({ showMask: !doesShow })
+  };
 
   render() {
     return (

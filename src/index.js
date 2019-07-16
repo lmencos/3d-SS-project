@@ -10,6 +10,7 @@ import Gallery from '../src/pages/Gallery';
 import Projects from '../src/pages/Projects';
 import ContactUs from '../src/pages/ContactUs';
 import SignIn from '../src/pages/SignIn';
+import Mask from './pages/Mask';
 
 
 ReactDOM.render(
