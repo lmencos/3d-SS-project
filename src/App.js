@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Mask from '../src/pages/Mask';
+import Mask from './pages/containers/Mask';
 
 class App extends Component {
   state = { showMask: false };

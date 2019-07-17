@@ -7,10 +7,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from '../src/components/Navbar';
 import Gallery from '../src/pages/Gallery';
-import Projects from '../src/pages/Projects';
+import Projects from '../src/pages/containers/Projects';
 import ContactUs from '../src/pages/ContactUs';
 import SignIn from '../src/pages/SignIn';
-import Mask from './pages/Mask';
 
 
 ReactDOM.render(
