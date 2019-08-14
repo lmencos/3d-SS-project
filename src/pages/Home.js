@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from '../containers/Navbar';
 
 class ContactUs extends React.Component {
   render (){
     return (
-      <h1>Soy el Home</h1>
+      <div>
+        <Navbar />
+        <h1>Soy Home</h1>
+      </div>
     )
   }
 }

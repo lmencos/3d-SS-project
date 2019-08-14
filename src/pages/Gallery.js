@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from '../containers/Navbar';
 
 class Gallery extends React.Component {
   render (){
     return (
-      <h1>Soy la galería</h1>
+      <div>
+        <Navbar />
+        <h1>Soy Gallery</h1>
+      </div>
     )
   }
 }

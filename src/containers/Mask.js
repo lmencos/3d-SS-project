@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import THREE from './Three';
 import ModelMask from './model/scene.gltf';
+import Navbar from '../containers/Navbar';
 
 
 class Mask extends Component {
@@ -108,6 +109,7 @@ class Mask extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <h2>I am an ancient mexican mask coming from Three js</h2>
         <small>Object: gltf made in Blender 2.8  </small>
         <small>  Author: Daniel Cabrera </small>
