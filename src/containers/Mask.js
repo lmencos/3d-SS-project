@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import THREE from './Three';
 import ModelMask from './model/scene.gltf';
-import Navbar from '../containers/Navbar';
 
 
 class Mask extends Component {
 
   componentDidMount() {
-
+    
+    console.log('3. componentDidMount()')
     // === THREE.JS CODE START ===
     let scene, camera, renderer;
     const init = () => {
@@ -58,18 +58,12 @@ class Mask extends Component {
       document.body.appendChild(renderer.domElement);
 
       window.addEventListener('resize', () => {
-          let width = window.innerWidth;
-          let height = window.innerHeight;
-          renderer.setSize( width, height );
-          camera.aspect = width / height;
-          camera.updateProjectionMatrix( );
-      } )
-
-      
-      window.addEventListener('onMouseWheel', (event) => {
-        event.preventDefault();
-        event.stopPropagation();
-      } )
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        renderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+      });
 
 
       const loader = new THREE.GLTFLoader();
@@ -81,6 +75,8 @@ class Mask extends Component {
           mask.scale.set(0.5, 0.5, 0.5);
           scene.add(gltf.scene);
           animate();
+          scene.remove(mask);
+          mask.dispose();
         },
         (xhr) => {
           console.log(`${(xhr.loaded / xhr.total * 100)}% loaded`);
@@ -88,34 +84,59 @@ class Mask extends Component {
         (error) => {
           console.error('An error has happened', error)
         },
-      );
-    }
-
-    let animate = () => {
-      renderer.render(scene, camera);
-      requestAnimationFrame(animate);
-    }
+        );
+      }
+      
+      let animate = () => {
+        renderer.render(scene, camera);
+        requestAnimationFrame(animate);
+      };
 
     init();
+
     // === THREE.JS EXAMPLE CODE END ===
+  }; //didMount ends
 
-  };
+  // stop = () => {
+  //   if (!this.frameId) {
+  //     console.log("stop() - not running");
+  //   };
+  //   cancelAnimationFrame(this.frameId)
+  //   this.frameId = null;
+  // };
 
-  buttonMask = () => {
-    const doesShow = this.state.showMask;
-    this.setState({ showMask: !doesShow })
-  };
+  // componentDidUpdate(prevProps, prevState){
+  //   console.log('componentDidUpdate')
+  //   console.log({
+  //     prevPros: prevProps, prepState: prevState
+  //   });
+  //   console.log({
+  //     props: this.props, state: this.state
+  //   });
+  // };
+
+  // componentWillUnmount() {
+  //   console.log('6. componentWillUnmount()')
+  //   // window.removeEventListener("resize", this.handleResize);
+  //   this.stop();
+  //   this.loader = null;
+  //   this.camera = null;
+  //   this.controls = null;
+  //   this.renderer = null;
+  //   this.mask = null;
+    // this.ref.removeChild(this.renderer.domElement);
+  // ;}
 
   render() {
+    console.log('2. render()')
     return (
-      <div>
-        <Navbar />
+      <React.Fragment>
         <h2>I am an ancient mexican mask coming from Three js</h2>
         <small>Object: gltf made in Blender 2.8  </small>
         <small>  Author: Daniel Cabrera </small>
         <div ref={ref => (this.mount = ref)} />
-      </div>
-    )
-  }
+      </React.Fragment>
+    );
+  };
 }
 export default Mask;

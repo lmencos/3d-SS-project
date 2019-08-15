@@ -6,7 +6,6 @@ import up from './images/arid2_up.jpg'
 import dn from './images/arid2_dn.jpg'
 import rt from './images/arid2_rt.jpg'
 import lf from './images/arid2_lf.jpg'
-import Navbar from "./Navbar";
 // import * as THREE from "three"
 // const OrbitControls = require("three-orbit-controls")(THREE);
 
@@ -93,7 +92,6 @@ class Sky extends Component {
   render() {
       return (
         <div>
-          <Navbar />
           <div ref={ref => (this.mount = ref)} />
         </div>
       )
