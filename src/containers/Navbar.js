@@ -18,10 +18,10 @@ class Navbar extends Component {
               <Link to="/contactUs" className="navRef">Contact us</Link>
             </li>
             <li>
-              <Link to="/enviroment3d" className="navRef">3D Enviroment</Link>
+              <a href="/enviroment3d" className="navRef">3D Enviroment</a>
             </li>
             <li>
-              <Link to="/ancientmask" className="navRef">Mask</Link>
+              <a href="/ancientmask" className="navRef">Mask</a>
             </li>
             <li>
               <Link to="/SignIn" className="navRef">Sign in</Link>
