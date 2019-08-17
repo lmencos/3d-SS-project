@@ -1,0 +1,23 @@
+.Header{
+  display: flex;
+  justify-content: center;
+  color: rgb(112, 112, 112)
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  color: rgb(134, 134, 134);
+}
+
+.img-izq{
+  background-image: url('../../back-images/blackAdnWhite.jpg');
+  background-repeat: repeat;
+  background-size: 45%;
+}
+
+.ContactUs-title{
+  /* display: flex; */
+  justify-content: center;
+}
+

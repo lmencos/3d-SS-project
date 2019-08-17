@@ -9,13 +9,13 @@ class Navbar extends Component {
         <nav className="navBar">
           <ul className="navBar-ul">
             <li>
-              <Link to="/home" className="navRef">Home</Link>
+              <a href="/home" className="navRef">Home</a>
             </li>
             <li>
-              <Link to="/gallery" className="navRef" >Gallery</Link>
+              <a href="/gallery" className="navRef" >Gallery</a>
             </li>
             <li>
-              <Link to="/contactUs" className="navRef">Contact us</Link>
+              <a href="/contactUs" className="navRef">Contact us</a>
             </li>
             <li>
               <a href="/enviroment3d" className="navRef">3D Enviroment</a>
@@ -24,7 +24,7 @@ class Navbar extends Component {
               <a href="/ancientmask" className="navRef">Mask</a>
             </li>
             <li>
-              <Link to="/SignIn" className="navRef">Sign in</Link>
+              <a href="/SignIn" className="navRef">Sign in</a>
             </li>
           </ul>
         </nav>
