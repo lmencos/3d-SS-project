@@ -1,23 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e589b5046479bc856a952b51d50418fd",
+    "revision": "9c20444a0c9647784ebf90263b1f0310",
     "url": "/3d-SS-project/index.html"
   },
   {
-    "revision": "bd8819df78057e17714b",
-    "url": "/3d-SS-project/static/css/2.510409cd.chunk.css"
+    "revision": "6043cbaa84bc88d7d5f5",
+    "url": "/3d-SS-project/static/css/main.b41a102e.chunk.css"
   },
   {
-    "revision": "4d45e7aedb04d13231f3",
-    "url": "/3d-SS-project/static/css/main.94e22498.chunk.css"
+    "revision": "98402d209067f7c57a17",
+    "url": "/3d-SS-project/static/js/2.cc6bf546.chunk.js"
   },
   {
-    "revision": "bd8819df78057e17714b",
-    "url": "/3d-SS-project/static/js/2.6aa2966c.chunk.js"
-  },
-  {
-    "revision": "4d45e7aedb04d13231f3",
-    "url": "/3d-SS-project/static/js/main.08959a21.chunk.js"
+    "revision": "6043cbaa84bc88d7d5f5",
+    "url": "/3d-SS-project/static/js/main.a41c5dd1.chunk.js"
   },
   {
     "revision": "0ddb389d99c50458e236",
@@ -48,7 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3d-SS-project/static/media/arid2_up.e0e3a4fd.jpg"
   },
   {
+    "revision": "095455dcceaff34783a4323a71917500",
+    "url": "/3d-SS-project/static/media/barren_dn.095455dc.jpg"
+  },
+  {
     "revision": "b79f0bec871a6ec65a2697e9be4fb38a",
     "url": "/3d-SS-project/static/media/scene.b79f0bec.gltf"
+  },
+  {
+    "revision": "86dc3078261e1b2e2b67eb6383797469",
+    "url": "/3d-SS-project/static/media/tablero01.86dc3078.png"
   }
 ]);

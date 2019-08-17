@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/3d-SS-project/static/css/main.94e22498.chunk.css",
-    "main.js": "/3d-SS-project/static/js/main.08959a21.chunk.js",
-    "main.js.map": "/3d-SS-project/static/js/main.08959a21.chunk.js.map",
+    "main.css": "/3d-SS-project/static/css/main.b41a102e.chunk.css",
+    "main.js": "/3d-SS-project/static/js/main.a41c5dd1.chunk.js",
+    "main.js.map": "/3d-SS-project/static/js/main.a41c5dd1.chunk.js.map",
     "runtime~main.js": "/3d-SS-project/static/js/runtime~main.779a3f19.js",
     "runtime~main.js.map": "/3d-SS-project/static/js/runtime~main.779a3f19.js.map",
-    "static/css/2.510409cd.chunk.css": "/3d-SS-project/static/css/2.510409cd.chunk.css",
-    "static/js/2.6aa2966c.chunk.js": "/3d-SS-project/static/js/2.6aa2966c.chunk.js",
-    "static/js/2.6aa2966c.chunk.js.map": "/3d-SS-project/static/js/2.6aa2966c.chunk.js.map",
+    "static/js/2.cc6bf546.chunk.js": "/3d-SS-project/static/js/2.cc6bf546.chunk.js",
+    "static/js/2.cc6bf546.chunk.js.map": "/3d-SS-project/static/js/2.cc6bf546.chunk.js.map",
     "index.html": "/3d-SS-project/index.html",
-    "precache-manifest.d8b95a2d7bbc1d2cd942cfed9d99873f.js": "/3d-SS-project/precache-manifest.d8b95a2d7bbc1d2cd942cfed9d99873f.js",
+    "precache-manifest.5e1a4057eefda68f7eb807052d77dc12.js": "/3d-SS-project/precache-manifest.5e1a4057eefda68f7eb807052d77dc12.js",
     "service-worker.js": "/3d-SS-project/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/3d-SS-project/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.94e22498.chunk.css.map": "/3d-SS-project/static/css/main.94e22498.chunk.css.map",
+    "static/css/main.b41a102e.chunk.css.map": "/3d-SS-project/static/css/main.b41a102e.chunk.css.map",
     "static/media/arid2_bk.jpg": "/3d-SS-project/static/media/arid2_bk.238766bf.jpg",
     "static/media/arid2_dn.jpg": "/3d-SS-project/static/media/arid2_dn.5d5b8be3.jpg",
     "static/media/arid2_ft.jpg": "/3d-SS-project/static/media/arid2_ft.6a76a7ae.jpg",
     "static/media/arid2_lf.jpg": "/3d-SS-project/static/media/arid2_lf.2a53a848.jpg",
     "static/media/arid2_rt.jpg": "/3d-SS-project/static/media/arid2_rt.64c0edaa.jpg",
     "static/media/arid2_up.jpg": "/3d-SS-project/static/media/arid2_up.e0e3a4fd.jpg",
-    "static/media/scene.gltf": "/3d-SS-project/static/media/scene.b79f0bec.gltf"
+    "static/media/Home.css": "/3d-SS-project/static/media/barren_dn.095455dc.jpg",
+    "static/media/scene.gltf": "/3d-SS-project/static/media/scene.b79f0bec.gltf",
+    "static/media/tablero01.png": "/3d-SS-project/static/media/tablero01.86dc3078.png"
   }
 }
