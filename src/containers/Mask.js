@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import THREE from './Three';
 import ModelMask from './model/scene.gltf';
+import './styles/Mask.css'
 
 
 class Mask extends Component {
@@ -124,16 +125,31 @@ class Mask extends Component {
   //   this.controls = null;
   //   this.renderer = null;
   //   this.mask = null;
-    // this.ref.removeChild(this.renderer.domElement);
+  //   this.ref.removeChild(this.renderer.domElement);
   // ;}
 
   render() {
     console.log('2. render()')
     return (
       <React.Fragment>
-        <h2>I am an ancient mexican mask coming from Three js</h2>
-        <small>Object: gltf made in Blender 2.8  </small>
-        <small>  Author: Daniel Cabrera </small>
+        <div className="container Mask-container">
+          <h4 className="row Mask-title">
+          I am an ancient mexican mask coming from Three js
+          </h4>
+          <div className="row Author-mask-1" >
+            <small>Object: gltf made in Blender 2.8  </small>
+          </div>
+          <div className="row Author-mask-2 " >
+              <small>  Author: Daniel Cabrera </small>
+          </div>
+          <div>
+              <h5>
+                <p className="row Mask-comments" >This is a real object and it is exhibit in a museum.</p>
+                <p className="row Mask-comments" >The 3D object was scanning and made in blender, loaded in three js</p>
+                <p className="row Mask-comments" >and it works as React component</p>
+              </h5>
+          </div>
+        </div>
         <div ref={ref => (this.mount = ref)} />
       </React.Fragment>
     );
