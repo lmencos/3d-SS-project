@@ -7,14 +7,14 @@ import './styles/Mask.css'
 class Mask extends Component {
 
   componentDidMount() {
-    
+
     console.log('3. componentDidMount()')
     // === THREE.JS CODE START ===
     let scene, camera, renderer;
     const init = () => {
       scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xffffff);
-
+      scene.background = new THREE.Color(0xf4f4f7);
+       
       camera = new THREE.PerspectiveCamera(
         90,
         window.innerWidth / window.innerHeight,
@@ -30,7 +30,7 @@ class Mask extends Component {
       let controls = new THREE.OrbitControls(camera);
       controls.addEventListener('change', renderer);
 
-      let hlight = new THREE.AmbientLight(0xffffff, 0.5);
+      let hlight = new THREE.AmbientLight(0x481C18, 0.5);
       scene.add(hlight);
 
       let directionalLight = new THREE.DirectionalLight(0xffa647, 0.5);
@@ -73,7 +73,7 @@ class Mask extends Component {
         url,
         (gltf) => {
           let mask = gltf.scene.children[0];
-          mask.scale.set(0.5, 0.5, 0.5);
+          mask.scale.set(0.81, 0.81, 0.81);
           scene.add(gltf.scene);
           animate();
           scene.remove(mask);
@@ -150,7 +150,7 @@ class Mask extends Component {
               </h5>
           </div>
         </div>
-        <div ref={ref => (this.mount = ref)} />
+        <div className="MaskModel" ref={ref => (this.mount = ref)} />
       </React.Fragment>
     );
   };

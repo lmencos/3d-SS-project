@@ -14,30 +14,30 @@ class Badge extends Component {
           <h3>Chichén Itzá</h3>
         </div> 
        
-        <div className="Badge__section-name" >
+        <div className=" Badge__section-name" >
           <img
             className="Badge__avatar" 
             src={Chichen} 
             width="40%" 
             alt="Real Model"/>
 
-          <p> <strong className="Badge__type"> Real Model photo </strong><br/>
-          <small>Artist: Daniel Cabrera</small><br/>
-          <h6>Twitter: @DanielCabrera</h6>
+          <p> <strong className="Badge__type"> {this.props.badgeType} </strong><br/>
+          <small>Artist: {this.props.artist} </small><br/>
+          <h6>Twitter: @{this.props.twitter}</h6>
           </p>
         </div>
   
   
-        <div className="Badge__section-name" >
+        <div className=" Badge__section-name" >
           <img
             className="Badge__avatar" 
             src={Chichen} 
             width="40%" 
             alt="Real Model"/>
 
-          <p> <strong className="Badge__type"> 3d Model Render </strong><br/>
-          <small>Artist: Daniel Cabrera</small><br/>
-          <h6>Twitter: @DanielCabrera</h6>
+          <p> <strong className="Badge__type"> {this.props.badgeType} </strong><br/>
+          <small>Artist: {this.props.artist}</small><br/>
+          <h6>Twitter: @{this.props.twitter}</h6>
           </p>
         </div>
 

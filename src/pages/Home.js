@@ -37,18 +37,18 @@ class ContactUs extends React.Component {
           <article>
             <section>
               <main className="Home-main">
-                Interpreting reality is much more complex than 
-                seeing a stereogram. Scan, vectorize, rotopolize, 
-                texturize, animate, etc., 
+                <span className="font-weight-light" >Interpreting reality is much more complex than 
+                seeing a stereogram.</span> <span className="font-weight-bold" >Scannin, vectorizing, rotopolizing, 
+                texturizing, animating</span>, etc., 
                 to achieve a scene is our passion.
               </main>
               <main className="Home-main" >
-                Trying to replicate reality by building a scene 
-                is our art.
-                From a model that fits in the palm of your hand,
-                even a historical monument can be scanned by 
+                <span className="font-weight-light" >Trying to replicate reality by building a scene 
+                is our art.</span>
+                <span className="font-weight-bold"> From a model that fits in the palm of your hand,
+                even a historical monument</span> can be scanned by 
                 our team of experts.
-              </main>
+              </main> 
             </section>
           </article>
         <div>

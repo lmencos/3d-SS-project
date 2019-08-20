@@ -80,7 +80,7 @@ class ContactUs extends React.Component {
               </div>
 
           
-              <button type="submit" 
+              <button type="button" 
                 // onClick={this.handleClick} 
                 className="btn btn-dark" >Submit</button>
           
