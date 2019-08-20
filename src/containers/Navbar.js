@@ -1,19 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './styles/NavBar.css';
-// import {Link} from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
-  render (){
+  render() {
     return (
       <div className="navBar-container">
-        <nav className="navBar">
-          <a href="/home">
+
             <ul className="navBar-ul">
               <li>
                 <a href="/home" className="navRef">Home</a>
               </li>
               <li>
-                <a href="/gallery" className="navRef" >Gallery</a>
+                <a href="/gallery" className="navRef" >Gallery </a>
               </li>
               <li>
                 <a href="/contactUs" className="navRef">Contact us</a>
@@ -28,8 +27,7 @@ class Navbar extends Component {
                 <a href="/SignIn" className="navRef">Sign in</a>
               </li>
             </ul>
-          </a>
-        </nav>
+        
       </div>
     );
   };

@@ -1,8 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './styles/ContactUs.css';
 import ContactUsCol from '../../src/back-images/blackAdnWhite.jpg'
 
-class ContactUs extends React.Component {
+class ContactUs extends Component {
+  state = {
+    "firstName": "",
+    "lastName": "",
+    "email":"",
+    "twitter": "",
+    "textBox": ""
+  };
+
+  handleChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Button submit was clicked')
+    console.log(this.state)
+  };
+
+
   render (){
     return (
       <div>
@@ -23,23 +44,23 @@ class ContactUs extends React.Component {
           
                 <div className="form-group">
                 <label htmlFor="">First Name</label>
-                <input  
+                <input
+                onChange={this.handleChange}  
                 className="form-control" 
                 type="text" 
                 name="firstName" 
-                // onChange={this.props.onChange}
-                // value={this.props.formValues.firstName}
+                value={this.state.firstName}
                 />
                 </div>
           
                 <div className="form-group">
                   <label htmlFor="">Last Name</label>
-                  <input  
+                  <input 
+                  onChange={this.handleChange} 
                   className="form-control" 
                   type="text" 
                   name="lastName" 
-                  // onChange={this.props.onChange}
-                  // value={this.props.formValues.lastName}
+                  value={this.state.lastName}
                 />
                 </div>
           
@@ -48,31 +69,34 @@ class ContactUs extends React.Component {
                 <div className="form-group">
                   <label htmlFor="">email</label>
                   <input  
+                  onChange={this.handleChange} 
                   className="form-control" 
                   type="email" 
                   name="email" 
-                  // onChange={this.props.onChange}
-                  // value={this.props.formValues.email}
+                  value={this.state.email}
                   />
               </div>
           
               <div className="form-group">
                 <label htmlFor="">Twitter</label>
-                <input  
+                <input 
+                onChange={this.handleChange}  
                 className="form-control" 
                 type="text" 
                 name="twitter" 
-                // onChange={this.props.onChange}
-                // value={this.props.formValues.twitter}
+                value={this.state.twitter}
                 />
               </div>
 
 
               <div className="form-group">
                 <small><textarea 
-                  name="text" 
-                  classNAme="form-control form-control-lg" 
-                  placeholder="what would you like to talk about?">
+                  onChange={this.handleChange} 
+                  name="textBox" 
+                  className="form-control form-control-lg" 
+                  placeholder="what would you like to talk about?"
+                  value={this.state.textBox}
+                  >
                 </textarea></small>
                 <small className="form-text text-muted">
                   please remember to include a subject.
@@ -82,7 +106,9 @@ class ContactUs extends React.Component {
           
               <button type="button" 
                 // onClick={this.handleClick} 
-                className="btn btn-dark" >Submit</button>
+                className="btn btn-dark" 
+                onClick={this.handleSubmit}
+                >Submit</button>
           
           
           
