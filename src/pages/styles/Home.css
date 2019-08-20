@@ -1,4 +1,31 @@
 .Home-intro{
   height: 100%;
-  background-image: url("../../containers/images/barren_dn.jpg")
+  background-image: url("../../back-images/mesura.jpg");
+  background-size: 13%;
+  background-repeat: repeat;
+  
+}
+.Home-title{
+  color: #723934;
+  display: flex;
+  justify-content: center;
+}
+
+.Home-lookText{
+  padding: 15px;
+  color: #e24a1c;
+  display: flex;
+  justify-content: center;
+}
+
+.Home-main{
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  width: 70%;
+  padding: 10px;
+  margin: 0 15% 21px;
+  font-size: 18px;
+  color:#481C18;
 }
