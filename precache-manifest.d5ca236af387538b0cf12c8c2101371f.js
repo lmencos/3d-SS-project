@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac1f4b9eaf1840a4c376a148a1a8aa68",
+    "revision": "9788cef6c19ebfdcfa1664fc7bf96a44",
     "url": "/3d-SS-project/index.html"
   },
   {
-    "revision": "c9da578ca9dcb672870e",
+    "revision": "73f57350302fd2b98cf2",
     "url": "/3d-SS-project/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "1f2cdbefb0f7b4065287",
-    "url": "/3d-SS-project/static/css/main.a9785e7a.chunk.css"
+    "revision": "e27d81dec92bbf6ee168",
+    "url": "/3d-SS-project/static/css/main.92f36927.chunk.css"
   },
   {
-    "revision": "c9da578ca9dcb672870e",
-    "url": "/3d-SS-project/static/js/2.46b0fb57.chunk.js"
+    "revision": "73f57350302fd2b98cf2",
+    "url": "/3d-SS-project/static/js/2.73d0e3e3.chunk.js"
   },
   {
-    "revision": "1f2cdbefb0f7b4065287",
-    "url": "/3d-SS-project/static/js/main.d17cd5dd.chunk.js"
+    "revision": "e27d81dec92bbf6ee168",
+    "url": "/3d-SS-project/static/js/main.99670d92.chunk.js"
   },
   {
     "revision": "0ddb389d99c50458e236",
@@ -48,19 +48,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3d-SS-project/static/media/arid2_up.e0e3a4fd.jpg"
   },
   {
-    "revision": "095455dcceaff34783a4323a71917500",
-    "url": "/3d-SS-project/static/media/barren_dn.095455dc.jpg"
-  },
-  {
     "revision": "bd607f42bfde7746b50aab3ecfb73b6e",
     "url": "/3d-SS-project/static/media/blackAdnWhite.bd607f42.jpg"
+  },
+  {
+    "revision": "0b40fbc310eb833c1d66ccd6016f98c0",
+    "url": "/3d-SS-project/static/media/chichen.0b40fbc3.jpg"
+  },
+  {
+    "revision": "ee09fb566c58f97c42e1a81bab1fe352",
+    "url": "/3d-SS-project/static/media/cubo01.ee09fb56.jpg"
+  },
+  {
+    "revision": "0d1321eee1e8325976a5752253b76bbe",
+    "url": "/3d-SS-project/static/media/mesura.0d1321ee.jpg"
   },
   {
     "revision": "b79f0bec871a6ec65a2697e9be4fb38a",
     "url": "/3d-SS-project/static/media/scene.b79f0bec.gltf"
   },
   {
-    "revision": "86dc3078261e1b2e2b67eb6383797469",
-    "url": "/3d-SS-project/static/media/tablero01.86dc3078.png"
+    "revision": "5bd162cf1913d8e24ec244543da8c27a",
+    "url": "/3d-SS-project/static/media/siluetajpg.5bd162cf.jpg"
+  },
+  {
+    "revision": "ebf3e2df4cc05bba39f9ff69154b4002",
+    "url": "/3d-SS-project/static/media/telaraña01.ebf3e2df.jpg"
   }
 ]);
