@@ -8,12 +8,12 @@
 
 .Badge__header {
   padding: 0.3rem 0;
-  height: 54px;
-  background: #481c18;
+  height: 35px;
+  background: #23272B;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #F4F4F7;
 }
 
 .Badge__section-name {
