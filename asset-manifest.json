@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/3d-SS-project/static/css/main.92f36927.chunk.css",
-    "main.js": "/3d-SS-project/static/js/main.99670d92.chunk.js",
-    "main.js.map": "/3d-SS-project/static/js/main.99670d92.chunk.js.map",
+    "main.css": "/3d-SS-project/static/css/main.2c887e21.chunk.css",
+    "main.js": "/3d-SS-project/static/js/main.7f62d026.chunk.js",
+    "main.js.map": "/3d-SS-project/static/js/main.7f62d026.chunk.js.map",
     "runtime~main.js": "/3d-SS-project/static/js/runtime~main.779a3f19.js",
     "runtime~main.js.map": "/3d-SS-project/static/js/runtime~main.779a3f19.js.map",
     "static/css/2.510409cd.chunk.css": "/3d-SS-project/static/css/2.510409cd.chunk.css",
-    "static/js/2.73d0e3e3.chunk.js": "/3d-SS-project/static/js/2.73d0e3e3.chunk.js",
-    "static/js/2.73d0e3e3.chunk.js.map": "/3d-SS-project/static/js/2.73d0e3e3.chunk.js.map",
+    "static/js/2.b4969dee.chunk.js": "/3d-SS-project/static/js/2.b4969dee.chunk.js",
+    "static/js/2.b4969dee.chunk.js.map": "/3d-SS-project/static/js/2.b4969dee.chunk.js.map",
     "index.html": "/3d-SS-project/index.html",
-    "precache-manifest.d5ca236af387538b0cf12c8c2101371f.js": "/3d-SS-project/precache-manifest.d5ca236af387538b0cf12c8c2101371f.js",
+    "precache-manifest.bca3f04d95c68cda39008f5f2841c962.js": "/3d-SS-project/precache-manifest.bca3f04d95c68cda39008f5f2841c962.js",
     "service-worker.js": "/3d-SS-project/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/3d-SS-project/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.92f36927.chunk.css.map": "/3d-SS-project/static/css/main.92f36927.chunk.css.map",
+    "static/css/main.2c887e21.chunk.css.map": "/3d-SS-project/static/css/main.2c887e21.chunk.css.map",
     "static/media/arid2_bk.jpg": "/3d-SS-project/static/media/arid2_bk.238766bf.jpg",
     "static/media/arid2_dn.jpg": "/3d-SS-project/static/media/arid2_dn.5d5b8be3.jpg",
     "static/media/arid2_ft.jpg": "/3d-SS-project/static/media/arid2_ft.6a76a7ae.jpg",
@@ -24,7 +24,6 @@
     "static/media/cubo01.jpg": "/3d-SS-project/static/media/cubo01.ee09fb56.jpg",
     "static/media/Home.css": "/3d-SS-project/static/media/mesura.0d1321ee.jpg",
     "static/media/scene.gltf": "/3d-SS-project/static/media/scene.b79f0bec.gltf",
-    "static/media/siluetajpg.jpg": "/3d-SS-project/static/media/siluetajpg.5bd162cf.jpg",
     "static/media/telaraña01.jpg": "/3d-SS-project/static/media/telaraña01.ebf3e2df.jpg"
   }
 }
