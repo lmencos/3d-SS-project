@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Chichen from '../back-images/chichen.jpg';
-import './styles/Badge.css'
+import './styles/Badge.css';
 
-class Badge extends Component {
-  render(){
-    
+const Badge =(props) => {
     return(        
       <div className="Badge">
 
         <div className="Badge__header">
-          <h3>Chichén Itzá</h3>
+        {console.log("badgeProps",props.badgeTitle)}
+          <h3>{props.badgeTitle}</h3>
         </div> 
        
         <div className="Badge__section-name">
@@ -17,13 +16,13 @@ class Badge extends Component {
           <div className=" Badge__section-name"  >
             <img
               className="Badge__avatar" 
-              src={Chichen} 
+              src={props.imageUrlA} 
               width="40%" 
               alt="Real Model"/>
           
-            <span> <strong className="Badge__type"> {this.props.badgeType} </strong><br/>
-            <small>Artist: {this.props.artist} </small><br/>
-            <h6>Twitter: @{this.props.twitter}</h6>
+            <span> <strong className="Badge__type"> {props.badgeTypeA} </strong><br/>
+            <small>Artist: {props.artistA} </small><br/>
+            <h6>Twitter: @{props.twitterA}</h6>
             </span>
           </div>
           
@@ -36,9 +35,9 @@ class Badge extends Component {
               alt="Real Model"/>
         </div>
 
-          <span> <strong className="Badge__type"> {this.props.badgeType} </strong><br/>
-          <small>Artist: {this.props.artist}</small><br/>
-          <h6>Twitter: @{this.props.twitter}</h6>
+          <span> <strong className="Badge__type"> {props.badgeTypeB} </strong><br/>
+          <small>Artist: {props.artistB}</small><br/>
+          <h6>Twitter: @{props.twitterB}</h6>
           </span>
         </div>
 
@@ -48,6 +47,5 @@ class Badge extends Component {
 
       </div>
     );
-  };
 };
   export default Badge;

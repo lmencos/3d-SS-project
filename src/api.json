@@ -1,0 +1,27 @@
+{
+  "dataModel": [
+    {
+      "id": 1,
+      "badgeTitle": "About space",
+      "badgeTypeA": "Real model, photo",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "FDCabrera",
+      "twitterB": "fdCabrera",
+      "imageUrlA": "'./src/back-images/siluetajpg.jpg'"
+    },
+    {
+      "id": 2,
+      "badgeTitle": "lookat",
+      "badgeTypeA": "Real model, photo",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "FDCabrera",
+      "twitterB": "fdCabrera",
+      "imageUrlB": "../containers/images/siluetajpg.jpg"
+    }
+  ]
+}
+
