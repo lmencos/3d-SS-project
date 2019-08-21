@@ -1,9 +1,15 @@
+/* .Big-container{
+  background-image: url("../../back-images/blackAdnWhite.jpg");
+  background-size: 5%;
+  padding: 5rem; */
+/* } */
+
 .Home-intro{
   height: 100%;
   background-image: url("../../back-images/mesura.jpg");
   background-size: 13%;
   background-repeat: repeat;
-  margin:  1% 2%;
+  margin:  3% 4%;
   border: 1px solid red;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
   border-radius: 8px 8px 8px 8px;
@@ -13,10 +19,15 @@
   color: #723934;
   display: flex;
   justify-content: center;
+  width: 50%;
+}
+
+.Stereogram{
+  margin: 1rem;
 }
 
 .Home-lookText{
-  padding: 15px;
+  padding: 1px;
   color: #e24a1c;
   display: flex;
   justify-content: center;

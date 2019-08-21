@@ -9,16 +9,16 @@ import cubo from '../back-images/cubo01.jpg';
 class ContactUs extends React.Component {
   render (){
     return (
-      <div>
-            <h4 className="Home-title">Can you see this 3D image?</h4>
+      <div className="Big-container">
+            <h4 className="Home-title Home-main">Can you see this 3D image?</h4>
         <div className="Home-intro">
-          <div className="row">
+          <div className="row Stereogram">
             <img  
               className="" 
               src={spaider1} alt="Home Background" 
               width="7%"/>
           </div>
-          <div className="container">
+          <div className="container Stereogram">
             <img  
               className="" 
               src={black} alt="Home Background" 
