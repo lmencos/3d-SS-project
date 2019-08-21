@@ -1,0 +1,27 @@
+.container{
+  margin: 2rem;
+}
+
+.Form-container{
+  margin: 2rem;
+}
+
+.text-user{
+  color:white;
+  background-color: black
+}
+
+.BigContainer{
+  background-image: url('../../back-images/telaraña02.jpg');
+  background-size: 30%;
+  background-repeat: repeat;
+  padding: 21rem 0rem;
+}
+
+.Form-signIn{
+  background-image: url('../../back-images/blackAdnWhite.jpg');
+  background-size: 18%;
+  background-repeat: repeat;
+  padding: 1px;
+  width: 50%;
+}

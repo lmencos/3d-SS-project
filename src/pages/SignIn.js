@@ -1,10 +1,52 @@
 import React from 'react';
+import './styles/SignIn.css'
 
 class SignIn extends React.Component {
   render (){
     return (
-      <div>
-      <h1>Soy SignIn</h1>
+      <div className="BigContainer">
+        <div className="container">
+          <div>
+          <div className="form-group Form-signIn">
+              <div className="Form-container">
+                <div className="col-5">
+                  <label className="text-user" htmlFor="">User:</label>
+                  <input
+                  onChange=""  
+                  className="form-control" 
+                  type="text" 
+                  name="firstName" 
+                  value=""
+                  placeholder="user name"
+                  />
+                </div>
+              </div>
+
+              <div className="Form-container">
+                <div className="col-5">
+                  <label className="text-user" htmlFor="">Password:</label>
+                  <input
+                  onChange=""  
+                  className="form-control" 
+                  type="text" 
+                  name="firstName" 
+                  value=""
+                  placeholder="password"
+                  />
+                </div>
+              </div>
+
+              <div className="container">
+                <button type="button" 
+                  // onClick={this.handleClick} 
+                  className="btn btn-dark" 
+                  onClick=""
+                  >Enter</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
     </div>
     )
   }
