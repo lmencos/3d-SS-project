@@ -19,16 +19,16 @@ class ContactUs extends React.Component {
               width="7%"/>
           </div>
           <div className="container Stereogram">
-            <img  
+            {/* <img  
               className="" 
               src={black} alt="Home Background" 
               width="10%"/>
           </div>
           <div className="container-text">
-            <img  
-              className="Home-image02" 
+            <img   */}
+              {/* className="Home-image02" 
               src={cubo} alt="Home Background" 
-              width="5%"/>
+              width="5%"/> */}
           </div>
         </div>
             <h6 className="Home-lookText">This is a 3d wall, 
