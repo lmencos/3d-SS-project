@@ -23,6 +23,7 @@
 @media (max-width: 300px) {
   .navRef{
     font-size: 1px;
+    color: black;
   };
 }
 
@@ -35,24 +36,24 @@
 
 @media (max-width: 375px) {
   .navRef{
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 
 @media (max-width: 475px) {
   .navRef{
-    font-size: 14px;
+    font-size: 12px;
   };
 }
 
 @media (max-width: 575px) {
   .navRef{
-    font-size: 16px;
+    font-size: 14px;
   };
 }
 
-@media (min-width: 576px) {
+@media (min-width: 675px) {
   .navRef{
-    font-size: 21px;
+    font-size: 16px;
   };
 }

@@ -35,12 +35,12 @@ class ContactUs extends Component {
           
           <div className="container">
             <div className="row " >
-              <div className="col-2 mt-1 mr-2 img-izq" >
+              <div className="col-2 mr-2 img-izq" >
               {/* <h3>Soy columna izq</h3> */}
                 <img src="" height="7%" alt=""/>
               </div>
           
-              <div className="col-6 mt-2 ContactUs-title" >
+              <div className="col-6 mt-1 ContactUs-title" >
           
                 <div className="form-group">
                 <label htmlFor="">First Name</label>

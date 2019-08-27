@@ -24,7 +24,7 @@ class Navbar extends Component {
                 <a href="/ancientmask" className="navRef">Mask</a>
               </li>
               <li>
-                <a href="/SignIn" className="navRef">Sign-In</a>
+                <a href="/SignIn" className="navRef">SignIn</a>
               </li>
             </ul>
         
