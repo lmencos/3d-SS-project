@@ -30,17 +30,17 @@ class ContactUs extends Component {
 
         <form>
           <div className= "Header">
-            <h3  >would you like to contact us?</h3>
+            <h4  >would you like to contact us?</h4>
           </div>
           
           <div className="container">
             <div className="row " >
-              <div className="col-2 mt-4 mr-5 img-izq" >
+              <div className="col-2 mt-1 mr-2 img-izq" >
               {/* <h3>Soy columna izq</h3> */}
-                <img src={ContactUsCol} height="7%" alt="contactus"/>
+                <img src="" height="7%" alt=""/>
               </div>
           
-              <div className="col-4 mt-4 ContactUs-title" >
+              <div className="col-6 mt-2 ContactUs-title" >
           
                 <div className="form-group">
                 <label htmlFor="">First Name</label>
@@ -93,7 +93,7 @@ class ContactUs extends Component {
                 <small><textarea 
                   onChange={this.handleChange} 
                   name="textBox" 
-                  className="form-control form-control-lg" 
+                  className=" TextArea form-control form-control-lg" 
                   placeholder="what would you like to talk about?"
                   value={this.state.textBox}
                   >

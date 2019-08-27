@@ -1,9 +1,7 @@
 import React from 'react';
-import Chichen from '../back-images/chichen.jpg';
 import './styles/Badge.css';
 import mascara from '../back-images/mask-05.png';
 import mascara1 from '../back-images/mask-06.png';
-import enviroment from '../back-images/enviroment.png';
 
 
 const Badge =(props) => {

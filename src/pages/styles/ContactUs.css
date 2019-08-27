@@ -13,11 +13,15 @@
 .img-izq{
   background-image: url('../../back-images/blackAdnWhite.jpg');
   background-repeat: repeat;
-  background-size: 45%;
+  background-size: 55%;
 }
 
 .ContactUs-title{
   /* display: flex; */
   justify-content: center;
+}
+
+.TextArea{
+  font-size: 14px;
 }
 
