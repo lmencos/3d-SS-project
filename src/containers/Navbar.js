@@ -15,16 +15,16 @@ class Navbar extends Component {
                 <a href="/gallery" className="navRef" >Gallery </a>
               </li>
               <li>
-                <a href="/contactUs" className="navRef">Contact us</a>
+                <a href="/contactUs" className="navRef">ContactUs</a>
               </li>
               <li>
-                <a href="/enviroment3d" className="navRef">3D Enviroment</a>
+                <a href="/enviroment3d" className="navRef">3dEnv</a>
               </li>
               <li>
                 <a href="/ancientmask" className="navRef">Mask</a>
               </li>
               <li>
-                <a href="/SignIn" className="navRef">Sign in</a>
+                <a href="/SignIn" className="navRef">Sign-In</a>
               </li>
             </ul>
         
