@@ -9,7 +9,7 @@ class SignIn extends React.Component {
           <div>
           <div className="form-group Form-signIn">
               <div className="Form-container">
-                <div className="col-5">
+                <div className="col-9">
                   <label className="text-user" htmlFor="">User:</label>
                   <input
                   onChange=""  
@@ -23,7 +23,7 @@ class SignIn extends React.Component {
               </div>
 
               <div className="Form-container">
-                <div className="col-5">
+                <div className="col-9">
                   <label className="text-user" htmlFor="">Password:</label>
                   <input
                   onChange=""  
