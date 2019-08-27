@@ -15,7 +15,7 @@ class ContactUs extends React.Component {
           <div className="row Stereogram">
             <img  
               className="" 
-              src={spaider1} alt="Home Background" 
+              src="" alt="Home Background" 
               width="7%"/>
           </div>
           <div className="container Stereogram">
