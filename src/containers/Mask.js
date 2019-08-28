@@ -96,7 +96,7 @@ class Mask extends Component {
     init();
 
     // === THREE.JS EXAMPLE CODE END ===
-  }; //didMount ends
+  } //didMount ends
 
   // stop = () => {
   //   if (!this.frameId) {

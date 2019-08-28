@@ -1,15 +1,11 @@
 import React from 'react';
 import './styles/Badge.css';
-import imageUrlA from '../back-images/mask-05.png';
-import imageUrlB from '../back-images/mask-06.png';
 
-
-const Badge =(props) => {
+const Badge = (props) => {
     return(        
       <div className="Badge">
-
+  
           <div className="Badge__header">
-          {console.log("badgeProps",props.badgeTitle)}
             <h3>{props.badgeTitle}</h3>
           </div> 
         <div className=" Badge__section-content1">
@@ -17,10 +13,10 @@ const Badge =(props) => {
             <div className="Badge-image">
               <label className="Badge__type"> {props.badgeTypeA}</label> 
               <div>
+              {console.log(props.imageA)}
                 <img
                   className="Badge__avatar" 
-                  src={imageUrlA} 
-                  width="50%" 
+                  src={props.imageA}
                   alt="Real Model"/>
               </div>
             
@@ -38,7 +34,7 @@ const Badge =(props) => {
             <div>
               <img
                 className="Badge__avatar" 
-                src={imageUrlB} 
+                src={props.imageB} 
                 width="50%" 
                 alt="Real Model"/>
             </div>
@@ -49,12 +45,11 @@ const Badge =(props) => {
             </div>
           </div>
       </div>
-
        
         <div className="Badge__footer">
           <h6>Real Model vs 3D render</h6>
         </div>
-
+  
       </div>
     );
 };

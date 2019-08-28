@@ -9,21 +9,8 @@
       "badgeTypeB": "3D object, render",
       "artistB": "FDCabrera",
       "twitterB": "fdCabrera",
-      "imageUrlA": "./back-images/mask-05.png",
-      "imageUrlB": "./back-images/mask-06.png"
-    },
-    {
-      "id": 2,
-      "badgeTitle": "lookat",
-      "badgeTypeA": "Real model, photo",
-      "artistA": "LMencos",
-      "twitterA": "lmencos",
-      "badgeTypeB": "3D object, render",
-      "artistB": "LMencos",
-      "twitterB": "lmencos",
-      "imageUrlA": "",
-      "imageUrlB": ""
+      "imageA": "https://lmencos.github.io/eyesFollow/sources/mask-05.png",
+      "imageB": "https://lmencos.github.io/eyesFollow/sources/mask-06.png"
     }
   ]
 }
-

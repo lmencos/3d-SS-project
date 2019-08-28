@@ -102,14 +102,7 @@ class ContactUs extends Component {
                 className="btn btn-dark" 
                 onClick={this.handleSubmit}
                 >Submit</button>
-          
-          
-          
-          
               </div>
-          
-              
-          
             </div>
           </div>
         </div>

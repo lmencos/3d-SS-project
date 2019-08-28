@@ -4,10 +4,10 @@ import data from '../api.json'
 
 
 const Gallery = () => {
-    return (
-      <div>
-        <BadgesList data={data}  />
-      </div>
-    )
-  }
+  return (
+    <div>
+      <BadgesList data={data} />
+    </div>
+  )
+}
 export default Gallery;
