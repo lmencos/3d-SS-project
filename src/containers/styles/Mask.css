@@ -1,3 +1,8 @@
+.Mask-container {
+  margin-top: 1rem;
+  padding: 0px;
+}
+
 
 .Mask-title{
   color: #723934;
@@ -17,8 +22,3 @@
   color: #5C472C;
   height: 10px;;
 }
-
-/* .MaskModel{
-  width: 50%;
-  border: 1px solid rebeccapurple;
-} */

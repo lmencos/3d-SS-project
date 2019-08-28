@@ -132,25 +132,21 @@ class Mask extends Component {
     console.log('2. render()')
     return (
       <React.Fragment>
-        <div className="container Mask-container">
-          <h4 className="row Mask-title">
-          I am an ancient mexican mask coming from Three js
-          </h4>
+        <div className="col-12 Mask-container">
           <div className="row Author-mask-1" >
             <small>Object: gltf made in Blender 2.8  </small>
           </div>
           <div className="row Author-mask-2 " >
               <small>  Author: Daniel Cabrera </small>
           </div>
-          <div>
-              <h5>
+          <div className="Mask-comments">
+              <h6>
                 <p className="row Mask-comments" >This is a real object and it is exhibit in a museum.</p>
-                <p className="row Mask-comments" >The 3D object was scanning and made in blender, loaded in three js</p>
-                <p className="row Mask-comments" >and it works as React component</p>
-              </h5>
+                <p className="row Mask-comments" >It really works as React component.</p>
+              </h6>
           </div>
         </div>
-        <div className="MaskModel" ref={ref => (this.mount = ref)} />
+        <div className="row MaskModel" ref={ref => (this.mount = ref)} />
       </React.Fragment>
     );
   };
