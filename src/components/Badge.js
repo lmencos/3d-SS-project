@@ -35,7 +35,6 @@ const Badge = (props) => {
               <img
                 className="Badge__avatar" 
                 src={props.imageB} 
-                width="50%" 
                 alt="Real Model"/>
             </div>
           

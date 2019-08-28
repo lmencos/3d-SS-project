@@ -11,6 +11,42 @@
       "twitterB": "fdCabrera",
       "imageA": "https://lmencos.github.io/eyesFollow/sources/mask-05.png",
       "imageB": "https://lmencos.github.io/eyesFollow/sources/mask-06.png"
+    },
+    {
+      "id": 2,
+      "badgeTitle": "And.. the space?",
+      "badgeTypeA": "Render, sample",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "LMencos",
+      "twitterB": "lmencos",
+      "imageA": "https://lmencos.github.io/eyesFollow/sources/siluetajpg.jpg",
+      "imageB": "https://lmencos.github.io/eyesFollow/sources/planetLucho.png"
+    },
+    {
+      "id": 3,
+      "badgeTitle": "just a hut",
+      "badgeTypeA": "Real model, photo",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "LMencos",
+      "twitterB": "lmencos",
+      "imageA": "https://lmencos.github.io/eyesFollow/sources/Cabana-01.jpg",
+      "imageB": "https://lmencos.github.io/eyesFollow/sources/cabana-02.png"
+    },
+    {
+      "id": 4,
+      "badgeTitle": "Inside the hut",
+      "badgeTypeA": "Render sample",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "LMencos",
+      "twitterB": "lmencos",
+      "imageA": "",
+      "imageB": "https://lmencos.github.io/eyesFollow/sources/cabana2-a.png"
     }
   ]
 }
