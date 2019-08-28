@@ -11,12 +11,11 @@ class SignIn extends React.Component {
               <div className="Form-container">
                 <div className="col-9">
                   <label className="text-user" htmlFor="">User:</label>
-                  <input
-                  onChange=""  
+                  <input 
                   className="form-control" 
                   type="text" 
                   name="firstName" 
-                  value=""
+                  // value=""
                   placeholder="user name"
                   />
                 </div>
@@ -26,11 +25,10 @@ class SignIn extends React.Component {
                 <div className="col-9">
                   <label className="text-user" htmlFor="">Password:</label>
                   <input
-                  onChange=""  
                   className="form-control" 
                   type="text" 
                   name="firstName" 
-                  value=""
+                  // value=""
                   placeholder="password"
                   />
                 </div>
@@ -40,7 +38,7 @@ class SignIn extends React.Component {
                 <button type="button" 
                   // onClick={this.handleClick} 
                   className="btn btn-dark" 
-                  onClick=""
+                  // onClick=""
                   >Enter</button>
               </div>
             </div>
