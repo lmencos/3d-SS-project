@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Badge.css';
-import mascara from '../back-images/mask-05.png';
-import mascara1 from '../back-images/mask-06.png';
+import imageUrlA from '../back-images/mask-05.png';
+import imageUrlB from '../back-images/mask-06.png';
 
 
 const Badge =(props) => {
@@ -19,7 +19,7 @@ const Badge =(props) => {
               <div>
                 <img
                   className="Badge__avatar" 
-                  src={mascara} 
+                  src={imageUrlA} 
                   width="50%" 
                   alt="Real Model"/>
               </div>
@@ -38,7 +38,7 @@ const Badge =(props) => {
             <div>
               <img
                 className="Badge__avatar" 
-                src={mascara1} 
+                src={imageUrlB} 
                 width="50%" 
                 alt="Real Model"/>
             </div>

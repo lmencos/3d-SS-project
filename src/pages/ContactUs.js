@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './styles/ContactUs.css';
-import ContactUsCol from '../../src/back-images/blackAdnWhite.jpg'
 
 class ContactUs extends Component {
   state = {
@@ -28,21 +27,17 @@ class ContactUs extends Component {
     return (
       <div>
 
-        <form>
-          <div className= "Header">
-            <h4  >would you like to contact us?</h4>
+        <div className="form-group global">
+          <div className= "row Header">
+            <h6  >would you like to contact us?</h6>
           </div>
           
-          <div className="container">
+          <div className="form-group">
             <div className="row " >
-              <div className="col-2 mr-2 img-izq" >
-              {/* <h3>Soy columna izq</h3> */}
-                <img src="" height="7%" alt=""/>
-              </div>
           
-              <div className="col-6 mt-1 ContactUs-title" >
+              <div className="col-6 ContactUs-title" >
           
-                <div className="form-group">
+                <div className="form-group firstName">
                 <label htmlFor="">First Name</label>
                 <input
                 onChange={this.handleChange}  
@@ -63,8 +58,6 @@ class ContactUs extends Component {
                   value={this.state.lastName}
                 />
                 </div>
-          
-          
           
                 <div className="form-group">
                   <label htmlFor="">email</label>
@@ -119,7 +112,7 @@ class ContactUs extends Component {
           
             </div>
           </div>
-        </form>
+        </div>
 
       </div>
     )

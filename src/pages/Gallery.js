@@ -1,6 +1,6 @@
 import React from 'react';
 import BadgesList from '../components/BadgesList';
-import data from '../../src/api.json'
+import data from '../api.json'
 
 
 const Gallery = () => {

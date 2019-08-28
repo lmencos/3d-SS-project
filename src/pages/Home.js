@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles/Home.css';
-import spaider1 from '../back-images/telaraña01.jpg';
-import black from '../back-images/blackAdnWhite.jpg';
-import cubo from '../back-images/cubo01.jpg';
 
 
 

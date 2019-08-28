@@ -1,7 +1,8 @@
 .Header{
   display: flex;
   justify-content: center;
-  color: rgb(112, 112, 112)
+  color: rgb(112, 112, 112);
+  margin-top: 1rem;
 }
 
 .row{
@@ -23,5 +24,8 @@
 
 .TextArea{
   font-size: 14px;
+}
+.firstName{
+  margin-top: 1rem;
 }
 

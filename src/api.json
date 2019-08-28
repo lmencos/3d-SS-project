@@ -9,18 +9,20 @@
       "badgeTypeB": "3D object, render",
       "artistB": "FDCabrera",
       "twitterB": "fdCabrera",
-      "imageUrlA": "'./src/back-images/siluetajpg.jpg'"
+      "imageUrlA": "./back-images/mask-05.png",
+      "imageUrlB": "./back-images/mask-06.png"
     },
     {
       "id": 2,
       "badgeTitle": "lookat",
       "badgeTypeA": "Real model, photo",
-      "artistA": "FDCabrera",
-      "twitterA": "fdCabrera",
+      "artistA": "LMencos",
+      "twitterA": "lmencos",
       "badgeTypeB": "3D object, render",
-      "artistB": "FDCabrera",
-      "twitterB": "fdCabrera",
-      "imageUrlB": "../containers/images/siluetajpg.jpg"
+      "artistB": "LMencos",
+      "twitterB": "lmencos",
+      "imageUrlA": "",
+      "imageUrlB": ""
     }
   ]
 }
