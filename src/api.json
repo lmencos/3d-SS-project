@@ -21,7 +21,7 @@
       "badgeTypeB": "3D object, render",
       "artistB": "LMencos",
       "twitterB": "lmencos",
-      "imageA": "https://lmencos.github.io/eyesFollow/sources/siluetajpg.jpg",
+      "imageA": "https://lmencos.github.io/eyesFollow/sources/ast-sun01.png",
       "imageB": "https://lmencos.github.io/eyesFollow/sources/planetLucho.png"
     },
     {
@@ -47,6 +47,18 @@
       "twitterB": "lmencos",
       "imageA": "https://lmencos.github.io/eyesFollow/sources/cabana2.png",
       "imageB": "https://lmencos.github.io/eyesFollow/sources/cabana2-a.png"
+    },
+    {
+      "id": 5,
+      "badgeTitle": "more space",
+      "badgeTypeA": "Render sample",
+      "artistA": "FDCabrera",
+      "twitterA": "fdCabrera",
+      "badgeTypeB": "3D object, render",
+      "artistB": "LMencos",
+      "twitterB": "lmencos",
+      "imageA": "https://lmencos.github.io/eyesFollow/sources/ast-sun02.png",
+      "imageB": "https://lmencos.github.io/eyesFollow/sources/ast-sun013.png"
     }
   ]
 }
